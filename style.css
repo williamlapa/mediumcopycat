@@ -1,0 +1,87 @@
+body {
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+
+body {
+    display: block; 
+}
+
+.banner {
+    background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+div {
+    display: block;
+}
+
+div.container {
+    margin: 50px auto;
+    width: 700px;
+}
+
+/* Media queries */
+@media (max-width: 1200px) {
+    /* For a screen < 1200px, this CSS will be read */
+    .container {
+      width: 700px;
+      margin: 50px auto;
+      padding: 10px;
+        
+    }
+}
+@media (max-width: 992px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+      margin: 50px auto;
+      padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+      margin: 50px auto;
+      padding: 10px;
+    }
+}
+@media (max-width: 576px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+      margin: 50px auto;
+      padding: 10px;
+   }
+}
+
+.link-medium {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}
+
+a {
+    color: teal;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+a:hover {
+    background-image: linear-gradient(to bottom, rgb(89, 241, 142), rgb(117, 236, 159)); */
+    opacity: .5;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
